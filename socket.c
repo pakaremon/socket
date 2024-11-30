@@ -18,7 +18,7 @@ int main() {
     }
 
     // Get server by name
-    server = gethostbyname("google.com");
+    server = gethostbyname("w3schools.com");
     if (server == NULL) {
         fprintf(stderr, "Error, no such host\n");
         exit(1);
