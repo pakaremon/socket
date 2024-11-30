@@ -37,7 +37,7 @@ int main() {
         exit(1);
     }
 
-    printf("Connected to google.com\n");
+    printf("Connected to w3schools.com\n");
 
     // Close socket
     close(sockfd);
